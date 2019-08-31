@@ -1,5 +1,6 @@
 
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap');
 
 .clear {
   clear: both;
@@ -42,6 +43,9 @@ Opera, Chrome, and Safari */
   color: #567590;
   font-size: 25px;
   border-bottom: 2px solid #567590;
+  font-family: 'Zilla Slab', serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
 }
 
 header {
@@ -50,4 +54,20 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+  #font-family: 'caviar_dreamsbold';
+  font-family: 'Zilla Slab', serif;  
+  font-weight: 600;
+  letter-spacing: -1.5px;
+  font-size: 48px;
+}
+
+h2 {
+  #font-family: 'caviar_dreamsbold_italic';
+  font-family: 'Zilla Slab', serif;
+  font-weight: 450;
+  font-style: italic;
+  letter-spacing: -1.5px;
 }
